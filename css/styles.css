@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    min-width: 650px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    padding: 20px;
+}
+
+.wrapper {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    max-width: 370px;
+    width: 100%;
+    background-color: #1e2939;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.image {}
+
+.main-image {
+    max-width: 100%;
+}
+
+.contacts-details {
+    display: flex;
+    align-items: center;
+}
+
+.contacts {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.contacts a {
+    color: #7d848d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+.contacts-link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.phone {
+    text-decoration: none;
+}
+
+.techskills-container {
+    margin-left: 40px;
+    margin-top: 55px;
+}
+
+.techskills-container h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.softskills-container {
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.softskills-container h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+aside ul {
+    color: #ff6b08;
+    list-style-position: inside;
+}
+
+aside ul span {
+    color: #b6b9bf;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/* Main info */
+
+.main-container {
+    padding: 60px 40px;
+}
+
+.main-container-header {
+    margin-bottom: 60px;
+}
+
+.main-container-header h2 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+
+.main-container-header h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+    margin-bottom: 25px;
+}
+
+.main-container-header p {
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 65px;
+}
+
+.projects h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.projects ol {
+    list-style-position: inside;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.projects {
+    max-width: 450px;
+}
+
+.portfolio-inner-list {
+    margin-left: 20px;
+    list-style: none;
+    text-align: end;
+    white-space: nowrap;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.main-text {
+    color: #727272;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.orange {
+    color: #ff6b08;
+}
+
+.work-container h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.work-container h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.dates {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.work-duties {
+    margin-top: 15px;
+    padding-left: 18px;
+    margin-bottom: 30px;
+}
+
+.education {
+    padding-top: 25px;
+}
+
+.education h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.education h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.education h5 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1000px) {
+    .contacts {
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    .techskills-container {
+        margin-left: 20px;
+        margin-top: 35px;
+    }
+    .softskills-container {
+        margin-left: 20px;
+        margin-top: 35px;
+    }
+    .main-container {
+        padding: 50px 30px;
+    }
+    .main-container-header h1 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .main-container-header h2 {
+        margin-bottom: 13px;
+    }
+}
+
+@media (max-width: 677px) {
+    .main-container-header h1 {
+        font-size: 30px;
+    }
+    .main-container {
+        padding-left: 20px;
+    }
+}
